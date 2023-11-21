@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    html,body {
+      margin: 0;
+      height: 100%;
+      font-family: sans-serif;
+    }
+
+    h3 {
+      color: hsl(218, 44%, 22%);
+    }
+
+    p{
+      color: hsl(220, 15%, 55%);
+    }
+
+    .boody {
+      background-color: hsl(212, 45%, 89%);
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .qr-wrapper{
+      background-color: hsl(0, 0%, 100%);
+      padding: 15px;
+      border-radius: 13px;
+    }
+    
+    img{
+      border-radius: 11px;
+      width: 100%;
+    }
+    
+    .text-wrapper {
+      text-align: center;
+    }    
+    
+    @media (max-width: 450px) {
+    .qr-wrapper {
+      width: 45vw;
+    }
+  }
+
+    @media (min-width: 1100px) {
+      .qr-wrapper {
+        width: 15vw;
+      }  
+    }  
+
+    @media (min-width: 820px) and (max-width: 1100px) {
+      .qr-wrapper {
+        width: 20vw;
+      }  
+    }  
+
+    @media (min-width: 450px) and (max-width: 820px) {
+      .qr-wrapper {
+        width: 30vw;
+      }  
+    }  
+
+  </style>
+</head>
+<body>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+
+
+  <div class="boody">
+    <div class="qr-wrapper">
+      <div class="img-wrapper">
+        <img src="./images/image-qr-code.png" alt="qr code image">
+      </div>
+      <div class="text-wrapper">
+        <h3>Improve your front-end skills by building projects</h3>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding to the next level</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
